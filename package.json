@@ -4,11 +4,11 @@
   "description": "An application template to expedite new projects.",
   "browserslist": "defaults",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "parcel src/index.html --no-cache --port 1234",
     "build": "parcel build src/index.html --public-url ./",
     "test": "jest --watch"
   },
-  "author": "Alan Ray Ampersand",
+  "author": "EducationSuperHighway",
   "license": "BSD-2-Clause",
   "dependencies": {
     "react": "18.2.0",
